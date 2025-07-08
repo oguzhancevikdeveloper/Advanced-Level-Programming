@@ -11,7 +11,7 @@ public class Database
             DatabaseType.Oracle =>"",
             DatabaseType.MySQL =>"",
             DatabaseType.PostgreSQL =>"",
-            DatabaseType.SQLServer =>""
+            DatabaseType.SQLServer =>"",
              _ => throw new ArgumentOutOfRangeException(nameof(databaseType), "Unsupported database type.")
         };
 

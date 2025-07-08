@@ -16,7 +16,7 @@ public class Server
     {
         for (int i = 0; i <= fileCount; i++)
         {
-            Console.WriteLine($"{i + 1}. file downloaded");
+            Console.WriteLine($"{i + 1}. file uploaded ");
         }
         return true;
     }

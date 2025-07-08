@@ -1,8 +1,7 @@
 ﻿
 using Lecture_4;
-using System.Net.Security;
-using System.Security.Cryptography.X509Certificates;
 
+//Operator Overloading Nedir
 internal class Program
 {
     private static void Main(string[] args)

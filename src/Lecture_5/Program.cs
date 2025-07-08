@@ -1,6 +1,16 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿
+
+
+
+
+
 Console.WriteLine("Hello, World!");
 MyMethod();
+
+long a = 1234845643132123;
+int b = 0;
+
+b = (int)a;
 
 int MyMethod()
 {
