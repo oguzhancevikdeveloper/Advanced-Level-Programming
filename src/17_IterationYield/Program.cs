@@ -43,6 +43,27 @@ internal class Program
             yield return ("Country", "USA");
         }
         #endregion
+
+        #region yield deferred Execution
+        IEnumerable<string> days = Days();
+
+        foreach (var item in days)
+        {
+            Console.WriteLine(item);
+        }
+
+
+        IEnumerable<string> Days()
+        {
+            Console.WriteLine("Creating days collection");
+            yield return "Monday";
+            yield return "Tuesday";
+            yield return "Wednesday";
+            yield return "Thursday";
+            yield return "Friday";
+        }
+
+        #endregion
     }
 }
 
