@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "14_ExpandoObject": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
