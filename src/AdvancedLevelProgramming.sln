@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15_AccessModifiers", "15_Ac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17_IterationYield", "17_IterationYield\17_IterationYield.csproj", "{1A0FE293-5448-4E2B-AB80-0356EF35A09B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18_CustomCollection", "18_CustomCollection\18_CustomCollection.csproj", "{839E59BE-1E22-48AC-8BBB-8083FBD47B2C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -95,6 +97,10 @@ Global
 		{1A0FE293-5448-4E2B-AB80-0356EF35A09B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A0FE293-5448-4E2B-AB80-0356EF35A09B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A0FE293-5448-4E2B-AB80-0356EF35A09B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{839E59BE-1E22-48AC-8BBB-8083FBD47B2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{839E59BE-1E22-48AC-8BBB-8083FBD47B2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{839E59BE-1E22-48AC-8BBB-8083FBD47B2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{839E59BE-1E22-48AC-8BBB-8083FBD47B2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -114,6 +120,7 @@ Global
 		{3978AEE0-8DFD-421D-9DA4-88B7E4984CA8} = {9DB37DE4-4209-43B6-ACBE-84C7168042D3}
 		{61CD1A31-F539-4619-9634-0323824D884B} = {9DB37DE4-4209-43B6-ACBE-84C7168042D3}
 		{1A0FE293-5448-4E2B-AB80-0356EF35A09B} = {9DB37DE4-4209-43B6-ACBE-84C7168042D3}
+		{839E59BE-1E22-48AC-8BBB-8083FBD47B2C} = {9DB37DE4-4209-43B6-ACBE-84C7168042D3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {36C38DF9-FDCF-4DFC-B3BB-6C77C2D4F5D6}
