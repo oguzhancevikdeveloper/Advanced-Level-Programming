@@ -95,3 +95,22 @@ class MyClass2
 class MyClass { }
 
 #endregion
+
+#region Generic Attribute Kullanımı
+
+
+
+[AttributeUsage(AttributeTargets.All)]
+class My6Attribute<T> : Attribute // her değerde generic olara verilemz mesela null string?
+{
+    public My6Attribute(T value) { }
+    public T Value { get; set; }
+}
+
+[My6<int>(value: 5, Value = 10)]
+class MyClass6
+{
+}
+
+
+#endregion
